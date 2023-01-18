@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    font-family: Quicksand;
+}
+.All-section{
+    background-color: #ececec;
+}
+/* CSS for Navigation Bar Starts here*/
+
+.mini-container > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+}
+.child-container2 > select{
+    display: block;
+    background-color: #212121;
+    color: white;
+    border: none;
+}
+.search-section > input{
+    display: block;
+}
+
+.main-container{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #212121;
+    color: white;
+    font-style: normal;
+}
+
+.img-container{
+    margin: 15px 0px;
+}
+.img-container>img{
+    width: 150px;
+    border-radius: 5px;
+}
+
+.container{
+    width: 1000px;
+}
+
+.child-container1{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.mini-container{
+    display: flex;
+}
+
+#profile{
+    background-color: black;
+    border: none;
+}
+
+.child-container2{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #212121;
+}
+
+#Search{
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    padding-left: 40px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.search-section{
+    display: flex;
+    align-items: center;
+}
+
+.search-logo{
+    position: relative;
+    right: 590px;
+}
+
+.profile-logo{
+    padding-left: 30px;
+}
+/* CSS for Navigation Bar Ends here*/
+
+/* css for crausal starts here */
+.slider{
+    width: 100%;
+}
+#slider>img{
+    width: 100%;
+}
+/* css for crausal ends here */
+
+/* CSS for Categorize Product Section starting */
+.Categorize-Product{
+    display: flex;
+    overflow: hidden;
+}
+
+.small-prod>img{
+    width: 100%;
+}
+/* CSS for Categorize Product Section ending */
+
+/* Offers Section starts */
+.offers1{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.offers1>img{
+    width: 400px;
+    margin: 10px;
+    border: solid white 2px;
+}
+
+.offers2{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    justify-content: center;
+}
+.offers2>img{
+    width: 75%;
+    border-radius: 8px;
+}
+/* Offers Section ends */
+
