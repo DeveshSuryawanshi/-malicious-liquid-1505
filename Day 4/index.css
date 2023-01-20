@@ -1,0 +1,383 @@
+*{
+    margin: 0px;
+    font-family: Quicksand;
+}
+.All-section{
+    background-color: #ececec;
+    padding-bottom: 100px;
+}
+/* CSS for Navigation Bar Starts here*/
+
+.mini-container > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+}
+.child-container2 > select{
+    display: block;
+    background-color: #212121;
+    color: white;
+    border: none;
+}
+.search-section > input{
+    display: block;
+}
+#profile{
+    color: white;
+}
+
+.main-container{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #212121;
+    color: white;
+    font-style: normal;
+}
+
+.img-container{
+    margin: 15px 0px;
+}
+.img-container>img{
+    width: 150px;
+    border-radius: 5px;
+}
+
+.container{
+    width: 1000px;
+}
+
+.child-container1{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.mini-container{
+    display: flex;
+}
+
+#profile{
+    background-color: black;
+    border: none;
+}
+
+.child-container2{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #212121;
+}
+
+#Search{
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    padding-left: 40px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.search-section{
+    display: flex;
+    align-items: center;
+}
+
+.search-logo{
+    position: relative;
+    right: 590px;
+}
+
+.profile-logo{
+    padding-left: 30px;
+}
+/* CSS for Navigation Bar Ends here*/
+
+/* css for crausal starts here */
+.slider{
+    width: 100%;
+}
+#slider>img{
+    width: 100%;
+    transition: 2s;
+}
+/* css for crausal ends here */
+
+/* CSS for Categorize Product Section starting */
+.Categorize-Product{
+    display: flex;
+    overflow: hidden;
+}
+
+.small-prod>img{
+    width: 100%;
+}
+/* CSS for Categorize Product Section ending */
+
+/* Offers Section starts */
+.offers1{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.offers1>img{
+    width: 400px;
+    margin: 10px;
+    border: solid white 2px;
+}
+
+.offers2{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    justify-content: center;
+}
+.offers2>img{
+    width: 75%;
+    border-radius: 8px;
+}
+
+.Cards1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.set1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.set1>div :nth-child(1){
+    background-color: black;
+    color: white;
+    padding: 10px 10px 10px 15px;
+    border-radius: 50px 0px 0px 50px;
+    cursor: pointer;
+}
+.set1>div :nth-child(2){
+    background-color: black;
+    color: white;
+    padding: 10px 10px 10px 15px;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+}
+
+.off-cont{
+    overflow: hidden;
+    width: 70%;
+}
+
+.set2{
+    display: flex;
+    transition: all 0.3s ease-in-out;
+}
+.set2 :hover{
+    transform: scale(1.1);
+}
+
+.set2 > img{
+    width: 250px;
+    display: block;
+    padding: 10px;
+}
+/* Offers Section ends */
+
+/* for all section same cards  */
+
+.Slides{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.Slides>h1{
+    font-size: 30px;
+    background-color: #fee4c9;
+    padding: 20px 80px;
+    border-radius: 30px;
+    letter-spacing: 5px;
+    margin-top: 40px;
+}
+
+.Slides>h3{
+    margin-top: 20px;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.slide-container{
+    overflow: hidden;
+    width: 70%;
+}
+
+.img-cont{
+    display: flex;
+    transition: all 0.3s ease-in-out;
+}
+
+/* .img-cont :hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; width: 260px;
+} */
+
+.img-cont>img{
+    width: 250px;
+    display: block;
+    padding: 10px;
+}
+
+/* for all section same cards  */
+
+/* mid Poster */
+
+.mid-poster{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.mid-poster>img{
+    width: 100%;
+}
+
+/* mid Poster */
+
+/* Wedding Sectiom */
+
+.wedding{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.wedding>img{
+    width: 1050px;
+    border-radius: 10px;
+}
+
+/* Wedding Sectiom */
+
+/* Womens Wear Section  */
+
+.women{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.women>img{
+    width: 1200px;
+    border-radius: 10px;
+}
+
+.extra{
+    margin-top: 30px;
+}
+
+/* Womens Wear Section  */
+
+
+/* CSS For footer */
+.All-cont>div>a{
+    display: block;
+}
+/* Headers Section */
+.foot-head{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+    padding: 50px;
+}
+.foot-head>h3{
+    font-size: 15px;
+    color: black;
+}
+/* Headers Section */
+
+/* All Pages informations Section*/
+.All-cont{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.All-cont>div>h3{
+    font-size: 15px;
+    color: black;
+}
+.allPro{
+    width: 500px;
+}
+.All-cont>div>a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 15px 0px;
+}
+.allPro{
+    margin: 10px 0px;
+}
+.allPro>a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+/* All Pages informations Section*/
+
+/* social handels section */
+
+.os-logo{
+    display: flex;
+    align-items: center;
+}
+.os-logo :nth-child(2){
+    width: 24px;
+    display: block;
+    margin: 0px 5px;
+}
+.os-logo :nth-child(3){
+    width: 15px;
+    height: 20px;
+    display: block;
+    margin: 0px 5px;
+}
+.S-handels{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+    padding: 40px;
+}
+/* social handels section */
+
+/* WEB INFORMATON SECTION */
+
+.web-info{
+    padding: 20px 150px;
+}
+.web-info>h4{
+    margin: 20px 0px;
+    font-size: 14px;
+    font-weight: 900;
+}
+.web-info>p{
+    font-size: 14px;
+}
+
+/* WEB INFORMATON SECTION*/
+
+/* CSS For footer */
